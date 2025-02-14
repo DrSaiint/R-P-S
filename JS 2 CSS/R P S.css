@@ -1,0 +1,51 @@
+
+.body{
+  background-color: rgba(8, 48, 100, 0.658);
+  color: aliceblue;
+  font-family: arial;
+  font-size: 30px;
+}
+.topic{
+  font-size:50px;
+  font-weight: bold;
+}
+.img{
+  height: 180px;
+  border: none;
+ box-shadow: 5px 5px 25px rgba(255, 2, 234, 0.959);
+  border-radius: 55px;
+  margin-left: 25px;
+  cursor: pointer;
+  transition: 1s;
+  margin-bottom: 40px;
+}
+.img:hover{
+   background-color: rgb(1, 173, 173);
+   box-shadow: 5px 5px 25px rgb(24, 39, 255);
+}
+
+.rock{
+  background-color: transparent;
+  border: none;
+}
+.paper{
+  background-color: transparent;
+  border: none;
+}
+.scissors{
+  background-color: transparent;
+  border: none;
+}
+.litle-image{
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+.reset{
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 24px;
+  background-color: rgba(209, 31, 0, 0.733);
+  border: none;
+  cursor: pointer;
+
+}

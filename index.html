@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="JS 2 CSS/R P S.css">
+  </head>
+  <body class="body">
+    <p>
+      <button>click</button>
+      <a href="file:///D:/html%20and%20css/JS%202/calcu%201.html">
+        <button> To Calculator</button>
+      </a>
+    </p>
+  <p class="topic">Rock Paper Scissors</p>
+  <br>
+  <p>
+    <button onclick="
+   playGame ( `Rock`);
+     "
+     class="rock" >
+    <img src="rps photos/Rock.png" class="img" >
+  </button>
+    
+    <button onclick=" 
+    playGame ( `paper`);
+     " class="paper" >
+    <img src="rps photos/Paper.png" class="img">
+  </button>
+
+    <button onclick=" 
+    playGame ( `Scissors`);
+     " class="scissors">
+    <img src="rps photos/Scissors.png" class="img">
+  </button>
+
+  <P class="results"></P>
+  <p class="moves"></p>
+  <!--You <img src="rps photos/r3.png" class="litle-image">
+  <img src="rps photos/p2.png" class="litle-image"> Computer-->
+  <p class="scores"></p>
+
+   <button onclick="
+    score.Wins= 0;
+    score.Losses=0;
+    score.Tie=0 ;
+    localStorage.removeItem(`score`);
+    updatescore();
+    console.log(`Scores Reseted 
+ Wins: 0.   Losses: 0.  Tie: 0.` ); " class="reset" >
+    Reset
+  </button>
+  </p>
+  </body>
+<script src="Script/R P S.js">
+</script>
+</html>
